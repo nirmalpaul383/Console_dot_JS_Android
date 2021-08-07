@@ -1,0 +1,2331 @@
+<TaskerData sr="" dvi="1" tv="5.12.22">
+	<dmetric>1080.0,2028.0</dmetric>
+	<Project sr="proj0" ve="2">
+		<cdate>1626759166188</cdate>
+		<name>Console.js(android)</name>
+		<scenes>Console.JS by N Paul (JavaScriptlet),File Picker Tips,File Picker,Console.JS by N Paul (Web Version),About Screen,Execution Mode Selector,File Create Dialog,Help me to choose</scenes>
+		<tids>19,13,7,14,20,6,4,25,16,8,24,23,5,18,10,17,15,11,9,2,27,3,26,12,22,21</tids>
+		<Kid sr="Kid">
+			<launchID>2</launchID>
+			<pkg>console.js.android.n.paul</pkg>
+			<vTarg>24</vTarg>
+			<vnme>1.0.0 [by N Paul]</vnme>
+			<vnum>22</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<fle>/storage/emulated/0/Console_dot_JS_Android-main/Console_dot_JS_Android-main/Icon/Console dot js icon Project.png</fle>
+		</Img>
+	</Project>
+	<Scene sr="sceneAbout Screen">
+		<cdate>1576836165957</cdate>
+		<edate>1628341546373</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2016</heightPort>
+		<nme>About Screen</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,183,1076,1475,0,233,1076,1500</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Welcome to Console.JS(Android) by N Paul.This is a small project to run/evaluate javascript code and to show the output on a custom console using a custom 'console.log()' method. You can enter JavaScript code here. You can use the "console.log()" method to output a JS code. It also supports Tasker's JavaScript interface. You can find more information about Tasker's JavaScript interface at https://tasker.joaoapps.com/userguide/en/javascript.html
+
+
+Console.js(Android)(https://github.com/nirmalpaul383/Console_dot_JS_Android) is based on "Console.js"(https://github.com/nirmalpaul383/Console_dot_JS) project by me. This project is very similar to my another project 'Tasker.js'(https://github.com/nirmalpaul383/Project_Tasker_dot_JS) which is based on "JavaScript_Console_Mini-inside-webpage"(https://github.com/nirmalpaul383/JavaScript_Console_Mini-inside-webpage) project by me.
+
+But the main difference between these(Console.js(Android) &amp; 'Console.js') and those('Tasker.js' &amp; 'JavaScript_Console_Mini-inside-webpage') project are that, these never instantly return the output of a code untill "console.log()" method is used but those always return an output(regardless of defined/undefinded value). Another difference is that when a code is thrown into those('JavaScript_Console_Mini-inside-webpage' &amp; 'Tasker.js'), they first read it, then evaluate it, then print its output and are ready to take the another code again (not forgetting the old codes). But comparatively in these project, if codes are thrown into these, these first read the entire codes, then evaluate it, and if there is "console.log()" method only then output it, and if we throw a new code, these forgets the previously executed code.
+
+If you like these project please give a star to these projects. https://github.com/nirmalpaul383/Console_dot_JS_Android , 
+Main project: https://github.com/nirmalpaul383/Console_dot_JS
+
+if you like to check out my previous similar projects you can visit 
+https://github.com/nirmalpaul383/Project_Tasker_dot_JS ,
+Main project: https://github.com/nirmalpaul383/JavaScript_Console_Mini-inside-webpage
+
+This project is originally made by me(N Paul).
+My github profile: https://github.com/nirmalpaul383/
+My youtube page: https://www.youtube.com/channel/UCY6JY8bTlR7hZEvhy6Pldxg/
+
+This is an open source program. You are welcomed to modify it...
+If you want to support me please give a like to our facebook page: https://facebook.com/a.new.way.Technical/</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="1"/>
+		</TextElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>77,1833,749,183,77,1833,749,183</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">Thanks for trying the application ☺️</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFF70101</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>827,1933,249,83,827,1933,249,83</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">-N Paul</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ImageElement sr="elements3" ve="2">
+			<flags>4</flags>
+			<geom>852,1683,224,250,852,1708,224,225</geom>
+			<Str sr="arg0" ve="3">Image1</Str>
+			<Img sr="arg1" ve="2">
+				<fle>/storage/emulated/0/Pictures/facebook/FB_IMG_16276551672425269.jpg</fle>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<keyTask>25</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">About Screen</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+			<ListElementItem sr="item0">
+				<label>Back</label>
+				<Action sr="action" ve="7">
+					<code>49</code>
+					<Str sr="arg0" ve="3">About Screen</Str>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>My GitHub Profile</label>
+				<Action sr="action" ve="7">
+					<code>104</code>
+					<Str sr="arg0" ve="3">https://www.github.com/nirmalpaul383/</Str>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>Like Our Facebook Page</label>
+				<Action sr="action" ve="7">
+					<code>104</code>
+					<Str sr="arg0" ve="3">https://m.facebook.com/a.New.Way.Technical/</Str>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item3">
+				<label>Our YouTube Channel</label>
+				<Action sr="action" ve="7">
+					<code>104</code>
+					<Str sr="arg0" ve="3">https://youtube.com/channel/UCY6JY8bTlR7hZEvhy6Pldxg</Str>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneConsole.JS by N Paul (JavaScriptlet)">
+		<cdate>1626759178003</cdate>
+		<edate>1628323415915</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2028</heightPort>
+		<nme>Console.JS by N Paul (JavaScriptlet)</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<EditTextElement sr="elements0" ve="3">
+			<flags>12</flags>
+			<geom>0,1,1080,1275,0,1,1079,1275</geom>
+			<Str sr="arg0" ve="3">TextEdit1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0BE300</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FFFFFFFF</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>0,1276,1076,752,0,1276,1076,752</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF1E1B1B</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FFFFFFFF</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<OvalElement sr="elements2">
+			<flags>4</flags>
+			<geom>877,1076,199,200,877,1076,199,200</geom>
+			<Str sr="arg0" ve="3">Oval1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF02FADF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFFF0000</Str>
+		</OvalElement>
+		<TextElement sr="elements3" ve="3">
+			<clickTask>3</clickTask>
+			<flags>4</flags>
+			<geom>877,1076,199,200,877,1076,199,200</geom>
+			<Str sr="arg0" ve="3">Run</Str>
+			<Str sr="arg1" ve="3">∆Run∆</Str>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>377,1251,325,50,352,1251,325,50</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">Console output</Str>
+			<Int sr="arg2" val="7"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFF8F8</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<keyTask>20</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">Console.js(Android)</Str>
+			<Str sr="arg5" ve="3">(Tasker's JavaScriptlet)</Str>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>back/</urlMatch>
+			</LinkClickFilter>
+			<ListElementItem sr="item0">
+				<label>Open JS file (Local)</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Open File</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Int sr="arg10" val="1"/>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="0"/>
+					<Str sr="arg7" ve="3"/>
+					<Int sr="arg8" val="0"/>
+					<Int sr="arg9" val="0"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Open JS file (Network)</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">Open Network JS File</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Int sr="arg10" val="1"/>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="0"/>
+					<Str sr="arg7" ve="3"/>
+					<Int sr="arg8" val="0"/>
+					<Int sr="arg9" val="0"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>New Page</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">New Page</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Int sr="arg10" val="1"/>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="0"/>
+					<Str sr="arg7" ve="3"/>
+					<Int sr="arg8" val="0"/>
+					<Int sr="arg9" val="0"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item3">
+				<label>About</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">About Screen</Str>
+					<Int sr="arg1" val="6"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="10"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="0"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneConsole.JS by N Paul (Web Version)">
+		<cdate>1626759178003</cdate>
+		<edate>1627662716919</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2028</heightPort>
+		<nme>Console.JS by N Paul (Web Version)</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>12</flags>
+			<geom>0,1,1076,2027,0,1276,1076,752</geom>
+			<Str sr="arg0" ve="3">WebView1</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Console.JS by N Paul&lt;/title&gt;
+    &lt;!-- This project is originally made by me(N Paul). My github profile https://github.com/nirmalpaul383/
+          My youtube page https://www.youtube.com/channel/UCY6JY8bTlR7hZEvhy6Pldxg/ .This is an open source program .
+          You are welcomed to modify it...If you want to support me please give a like to our facebook page
+          https://facebook.com/a.new.way.Technical/ --&gt;
+
+    &lt;style&gt;
+        * {
+            padding: 0px;
+            margin: 0px;
+            background: rgb(0, 0, 0);
+        }
+
+        /* This project is originally made by me(N Paul). My github profile https://github.com/nirmalpaul383/
+My youtube page https://www.youtube.com/channel/UCY6JY8bTlR7hZEvhy6Pldxg/ .This is an open source program .
+You are welcomed to modify it...If you want to support me please give a like to our facebook page: https://facebook.com/a.new.way.Technical/ */
+
+        #divForHoldingLayout {
+            display: block;
+            width: 96vw;
+            height: 97vh;
+            margin-left: 2vw;
+            margin-top: 1vh;
+        }
+
+        #consoleOutputDisplay {
+            display: block;
+            resize: none;
+            width: 100%;
+            height: 20%;
+            background: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0);
+            color: red;
+        }
+
+        #consoleOutputDisplay:focus {
+            outline: none;
+        }
+
+        #consoleInputDisplay {
+            display: block;
+            resize: none;
+            width: 100%;
+            height: 80%;
+            background: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0);
+            color: rgb(9, 255, 0);
+        }
+
+        #consoleInputDisplay:focus {
+            outline: none;
+        }
+
+        #acceptButton {
+            display: block;
+            position: fixed;
+            top: 80vh;
+            right: 1vw;
+            border-radius: 35%;
+            background: rgb(19, 221, 70);
+            width: 10vw;
+            height: 10vw;
+        }
+
+        #acceptButton:hover {
+            background: rgb(8, 195, 228);
+        }
+
+        #acceptButton:active {
+            background: rgb(10, 88, 233);
+            width: 9vw;
+            height: 9vw;
+        }
+    &lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;div id="divForHoldingLayout"&gt;
+        &lt;textarea id="consoleInputDisplay" placeholder=""&gt;&lt;/textarea&gt;
+        &lt;hr&gt;
+        &lt;textarea id="consoleOutputDisplay" placeholder="" readonly&gt;&lt;/textarea&gt;
+        &lt;input id="acceptButton" type="button" onclick="acceptThisCode()" value="Run"&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+        /* This project is originally made by me(N Paul). My github profile https://github.com/nirmalpaul383/
+My youtube page https://www.youtube.com/channel/UCY6JY8bTlR7hZEvhy6Pldxg/ .This is an open source program .
+You are welcomed to modify it...If you want to support me please give a like to our facebook page: https://facebook.com/a.new.way.Technical/ */
+
+
+        //Declaring necessary variables
+        let consoleInputDisplay = document.getElementById('consoleInputDisplay');
+        let consoleOutputDisplay = document.getElementById('consoleOutputDisplay');
+
+
+        //Write some basic information to the consoleInputDisplay
+        consoleInputDisplay.placeholder = `Welcome to Console.JS(Android) by N Paul.This is a small project to run/evaluate javascript code and to show the output on a custom console using a custom 'console.log()' method. You can enter JavaScript code here. You can use the "console.log()" method to output a JS code. It also supports Tasker's JavaScript interface. You can find more information about Tasker's JavaScript interface at https://tasker.joaoapps.com/userguide/en/javascript.html
+
+
+Console.js(Android)(https://github.com/nirmalpaul383/Console_dot_JS_Android) is based on "Console.js"(https://github.com/nirmalpaul383/Console_dot_JS) project by me. This project is very similar to my another project 'Tasker.js'(https://github.com/nirmalpaul383/Project_Tasker_dot_JS) which is based on "JavaScript_Console_Mini-inside-webpage"(https://github.com/nirmalpaul383/JavaScript_Console_Mini-inside-webpage) project by me.
+
+But the main difference between these(Console.js(Android) &amp; 'Console.js') and those('Tasker.js' &amp; 'JavaScript_Console_Mini-inside-webpage') project are that, these never instantly return the output of a code untill "console.log()" method is used but those always return an output(regardless of defined/undefinded value). Another difference is that when a code is thrown into those('JavaScript_Console_Mini-inside-webpage' &amp; 'Tasker.js'), they first read it, then evaluate it, then print its output and are ready to take the another code again (not forgetting the old codes). But comparatively in these project, if codes are thrown into these, these first read the entire codes, then evaluate it, and if there is "console.log()" method only then output it, and if we throw a new code, these forgets the previously executed code.
+
+If you like these project please give a star to these projects. https://github.com/nirmalpaul383/Console_dot_JS_Android , 
+Main project: https://github.com/nirmalpaul383/Console_dot_JS
+
+if you like to check out my previous similar projects you can visit 
+https://github.com/nirmalpaul383/Project_Tasker_dot_JS ,
+Main project: https://github.com/nirmalpaul383/JavaScript_Console_Mini-inside-webpage
+
+This project is originally made by me(N Paul).
+My github profile: https://github.com/nirmalpaul383/
+My youtube page: https://www.youtube.com/channel/UCY6JY8bTlR7hZEvhy6Pldxg/
+
+This is an open source program. You are welcomed to modify it...
+If you want to support me please give a like to our facebook page: https://facebook.com/a.new.way.Technical/
+
+`;
+
+
+        consoleOutputDisplay.placeholder = `Console Output`;
+
+        //Changing default/stock JavaScript's console.log() function with our custom function...
+        console.log = function (input) {
+
+            //When the user tries to view a JavaScript object through the console.log() method, the object will be shown as a string instead of "[object Object]".
+            if (typeof (input) === 'object') {
+                input = JSON.stringify(input);
+            };
+
+            consoleOutputDisplay.value = `${consoleOutputDisplay.value}
+${input}`;
+        };
+
+        //Main function, when user click Run button this function will be executed
+        function acceptThisCode() {
+
+            consoleOutputDisplay.value = '';//Clearing Console
+
+
+            let rawCodes = consoleInputDisplay.value;//for getting user inputed code.
+
+            let startTimeForTestPerformance = window.performance.now();//for performence testing
+
+            //When error occured for evaluating JS Codes, then program flow should not be stopped instead error message should be shown.
+            try {
+                eval(rawCodes);
+            }
+            catch (error) {
+                console.log((error.message)); //Show error message/code to the console ,incase of an error
+            };
+
+
+            let endTimeForTestPerformance = window.performance.now(); //for performence testing
+
+            console.log(`Code Execution finished in Console.js(WebView). Time consumed(for User inputed JS code evaluating only): ${endTimeForTestPerformance - startTimeForTestPerformance} ms`); //Show code execution time on Console
+
+        }
+
+
+    &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</WebElement>
+		<PropertiesElement sr="props">
+			<keyTask>19</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">Console.js(Android)</Str>
+			<Str sr="arg5" ve="3">(WebView)</Str>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>back/</urlMatch>
+			</LinkClickFilter>
+			<ListElementItem sr="item0">
+				<label>New Page</label>
+				<Action sr="action" ve="7">
+					<code>53</code>
+					<se>false</se>
+					<Str sr="arg0" ve="3">Console.JS by N Paul (Web Version)</Str>
+					<Str sr="arg1" ve="3">WebView1</Str>
+					<Int sr="arg2" val="11"/>
+					<Str sr="arg3" ve="3"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>About</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">About Screen</Str>
+					<Int sr="arg1" val="6"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="10"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="0"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneExecution Mode Selector">
+		<cdate>1627199261183</cdate>
+		<edate>1628324053888</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2028</heightPort>
+		<nme>Execution Mode Selector</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<ListElement sr="elements0">
+			<flags>4</flags>
+			<geom>127,776,842,525,152,751,742,400</geom>
+			<Str sr="arg0" ve="3">Menu1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1627199314387</cdate>
+					<edate>1627199314387</edate>
+					<gridSize>10</gridSize>
+					<heightLand>168</heightLand>
+					<heightPort>168</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>742</widthLand>
+					<widthPort>842</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>5</flags>
+						<geom>682,0,160,144,573,15,153,137</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>hd_aaa_ext_tiles_small</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+						<RectElement sr="background">
+							<flags>4</flags>
+							<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+							<Str sr="arg0" ve="3"/>
+							<Int sr="arg1" val="0"/>
+							<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+							<Str sr="arg3" ve="3"/>
+							<Int sr="arg4" val="0"/>
+							<Str sr="arg5" ve="3">#FF000000</Str>
+							<Int sr="arg6" val="0"/>
+							<Int sr="arg7" val="0"/>
+						</RectElement>
+					</ImageElement>
+					<TextElement sr="elements1" ve="3">
+						<flags>5</flags>
+						<geom>112,3,561,141,112,15,445,137</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="10"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FF000000</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="0"/>
+						<Int sr="arg7" val="1"/>
+						<Int sr="arg8" val="2"/>
+						<RectElement sr="background">
+							<flags>4</flags>
+							<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+							<Str sr="arg0" ve="3"/>
+							<Int sr="arg1" val="0"/>
+							<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+							<Str sr="arg3" ve="3"/>
+							<Int sr="arg4" val="0"/>
+							<Str sr="arg5" ve="3">#FF000000</Str>
+							<Int sr="arg6" val="0"/>
+							<Int sr="arg7" val="0"/>
+						</RectElement>
+					</TextElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>5</flags>
+						<geom>0,3,98,141,15,15,81,137</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="10"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="0"/>
+						<Int sr="arg7" val="1"/>
+						<Int sr="arg8" val="0"/>
+						<RectElement sr="background">
+							<flags>4</flags>
+							<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+							<Str sr="arg0" ve="3"/>
+							<Int sr="arg1" val="0"/>
+							<Str sr="arg2" ve="3"/>
+							<Str sr="arg3" ve="3"/>
+							<Int sr="arg4" val="0"/>
+							<Str sr="arg5" ve="3">#FF000000</Str>
+							<Int sr="arg6" val="0"/>
+							<Int sr="arg7" val="0"/>
+						</RectElement>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+			<ListElementItem sr="item0">
+				<label>&lt;b&gt;Tasker JavaScriptlet:&lt;/b&gt; supports more features but code execution speed is slower</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">Console.JS by N Paul (JavaScriptlet)</Str>
+					<Int sr="arg1" val="6"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="0"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="0"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_av_play_arrow</nme>
+					<tint>-16711745</tint>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>&lt;b&gt;Webview:&lt;/b&gt; Faster execution speed but as of now it supports less features</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">Console.JS by N Paul (Web Version)</Str>
+					<Int sr="arg1" val="6"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="0"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="0"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_av_play_arrow</nme>
+					<tint>-16720385</tint>
+				</Img>
+			</ListElementItem>
+		</ListElement>
+		<PropertiesElement sr="props">
+			<keyTask>22</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">Console.js(Android)</Str>
+			<Str sr="arg5" ve="3">Select a execution mode</Str>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+			<ListElementItem sr="item0">
+				<label>Help me to choose</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">Help me to choose</Str>
+					<Int sr="arg1" val="6"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="10"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="0"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>About</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">About Screen</Str>
+					<Int sr="arg1" val="6"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="10"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="0"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneFile Create Dialog">
+		<cdate>1587996459060</cdate>
+		<edate>1627214386903</edate>
+		<gridSize>10</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>397</heightPort>
+		<nme>File Create Dialog</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>736</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,0,735,87,0,0,490,83</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF00FFC4</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>0,0,735,87,0,0,490,58</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Folder Creating Dialog</Str>
+			<Int sr="arg2" val="17"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<EditTextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>36,160,661,112,0,83,490,46</geom>
+			<Str sr="arg0" ve="3">TextEdit1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF819090</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="30"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>9</clickTask>
+			<flags>4</flags>
+			<geom>405,271,330,126,270,156,220,108</geom>
+			<Str sr="arg0" ve="3">OK Button</Str>
+			<Str sr="arg1" ve="3">OK</Str>
+			<Int sr="arg2" val="17"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements4" ve="3">
+			<clickTask>10</clickTask>
+			<flags>4</flags>
+			<geom>0,271,324,126,0,156,216,108</geom>
+			<Str sr="arg0" ve="3">Cancel Button</Str>
+			<Str sr="arg1" ve="3">Cancel</Str>
+			<Int sr="arg2" val="17"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>0,87,735,73,0,58,490,49</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">Name of folder:</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">File Create Dialog</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneFile Picker">
+		<cdate>1587908578015</cdate>
+		<edate>1627655066057</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>1776</heightPort>
+		<nme>File Picker</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<ListElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,381,1080,1395,0,154,720,1030</geom>
+			<itemclickTask>6</itemclickTask>
+			<itemlongclickTask>7</itemlongclickTask>
+			<Str sr="arg0" ve="3">Menu1</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%List_of_Files_Folders</Str>
+			<Int sr="arg3" val="0"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1587908713544</cdate>
+					<edate>1587908713544</edate>
+					<gridSize>10</gridSize>
+					<heightLand>111</heightLand>
+					<heightPort>166</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>720</widthLand>
+					<widthPort>1080</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>5</flags>
+						<geom>930,7,150,135,377,10,100,90</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>mw_file_folder</nme>
+							<tint>-16711736</tint>
+						</Img>
+						<Int sr="arg2" val="255"/>
+					</ImageElement>
+					<TextElement sr="elements1" ve="3">
+						<flags>5</flags>
+						<geom>90,15,838,135,74,10,293,90</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="10"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFF0000</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7" val="1"/>
+						<Int sr="arg8" val="0"/>
+					</TextElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>5</flags>
+						<geom>15,15,79,135,10,10,53,90</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="10"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FF5EFF00</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="0"/>
+						<Int sr="arg7" val="0"/>
+						<Int sr="arg8" val="0"/>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ListElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>0,0,1080,156,0,0,719,104</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0A00FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<OvalElement sr="elements2">
+			<flags>4</flags>
+			<geom>840,1543,240,232,560,1029,159,155</geom>
+			<Str sr="arg0" ve="3">Oval1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF0080FF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FF0000F8</Str>
+		</OvalElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>0,156,913,112,0,104,609,75</geom>
+			<Str sr="arg0" ve="3">Path Location</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements4" ve="3">
+			<clickTask>8</clickTask>
+			<flags>4</flags>
+			<geom>915,156,165,112,610,104,109,75</geom>
+			<longclickTask>16</longclickTask>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="26"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_hardware_keyboard_backspace</nme>
+				<tint>-16767745</tint>
+			</Img>
+		</ButtonElement>
+		<TextElement sr="elements5" ve="3">
+			<clickTask>11</clickTask>
+			<flags>4</flags>
+			<geom>840,1543,240,225,560,1029,159,150</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">+</Str>
+			<Int sr="arg2" val="46"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<clickTask>12</clickTask>
+			<flags>4</flags>
+			<geom>0,268,351,112,0,179,234,75</geom>
+			<Str sr="arg0" ve="3">Home Path Button</Str>
+			<Str sr="arg1" ve="3">...root folder...</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0021FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<clickTask>13</clickTask>
+			<flags>4</flags>
+			<geom>390,268,336,118,260,179,224,79</geom>
+			<Str sr="arg0" ve="3">Storage Path Button</Str>
+			<Str sr="arg1" ve="3">...Storage folder...</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0021FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<clickTask>14</clickTask>
+			<flags>4</flags>
+			<geom>765,268,315,118,510,179,209,79</geom>
+			<Str sr="arg0" ve="3">Mnt Path Button</Str>
+			<Str sr="arg1" ve="3">...mnt folder...</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0021FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<keyTask>23</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">File Picker</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+			<ListElementItem sr="item0">
+				<label>Help</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">File Picker Tips</Str>
+					<Int sr="arg1" val="3"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="6"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="1"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneFile Picker Tips">
+		<cdate>1588084784021</cdate>
+		<edate>1627214380926</edate>
+		<gridSize>10</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>681</heightPort>
+		<nme>File Picker Tips</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>745</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,0,744,106,0,0,490,83</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF00FFC4</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>3,106,739,103,2,71,493,78</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">(1) To select a 'folder' just 'hold' on that folder...</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0051FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>0,208,739,102,0,158,493,98</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">(2) To select a 'file' just 'click' on that file...</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>3,426,739,117,2,274,493,107</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">(4) To create a new folder click on plus sign(+) and give a name...</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF1BFF00</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>0,571,741,109,0,381,494,73</geom>
+			<Str sr="arg0" ve="3">Text4</Str>
+			<Str sr="arg1" ve="3">File Picker By N Paul
+if you want to support me please like my facebook page https://www.facebook.com/a.new.way.technical</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF4800FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>162,0,376,78,108,0,232,52</geom>
+			<Str sr="arg0" ve="3">Text5</Str>
+			<Str sr="arg1" ve="3">Help</Str>
+			<Int sr="arg2" val="17"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0058FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements6" ve="3">
+			<clickTask>15</clickTask>
+			<flags>4</flags>
+			<geom>625,0,118,93,417,0,79,62</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="17"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>mw_navigation_close</nme>
+				<tint>-16767745</tint>
+			</Img>
+		</ButtonElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>0,310,739,117,0,158,493,98</geom>
+			<Str sr="arg0" ve="3">Text6</Str>
+			<Str sr="arg1" ve="3">(3) Picked file or folder path is stored on 'File_Path_Picked' variable...</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFEC00FF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">File Picker Tips</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneHelp me to choose">
+		<cdate>1576836165957</cdate>
+		<edate>1628328047860</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2016</heightPort>
+		<nme>Help me to choose</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,408,1076,1225,0,233,1076,1500</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Console.js (Android) supports two JavaScript code execution modes. The first one is Tasker's JavaScriptlet mode (based on Tasker's sences
+and JavaScriptlet) and the second is WebView mode (based on HTML, CSS and JavaScript (and android's WebView)). Most JavaScript code will
+run almost equally in these two modes, and these two modes support Tasker's JavaScript interface. However, in terms of execution speed,
+it can be said that the webview mode is relatively faster (However, depending on the JavaScript code, exceptions may occur). In terms of
+features, Tasker JavaScriptlet mode currently has a few more features. For example it supports JavaScript scrict ("use strict") mode, it
+can read and execute local or network javascript file through a graphical interface (although with the help of Tasker JavaScript interface
+we can read and execute local JavaScript file in webview mode also. We can use fetch api or xmlhttprequest for network js file.). Here is
+a small example of how to execute local js files through Tasker JavaScript interface: let fileDataHolder = readFile ("local file path"); 
+and to execute it use the syntax: eval (fileDataHolder). You can find more information about Tasker JavaScript interface here
+ https://tasker.joaoapps.com/userguide/en/javascript.htm .</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="1"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<keyTask>27</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="1"/>
+			<Str sr="arg4" ve="3">Help me to choose</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+			<ListElementItem sr="item0">
+				<label>Back</label>
+				<Action sr="action" ve="7">
+					<code>49</code>
+					<se>false</se>
+					<Str sr="arg0" ve="3">Help me to choose</Str>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>About</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">About Screen</Str>
+					<Int sr="arg1" val="6"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="10"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="0"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task10">
+		<cdate>1587997437776</cdate>
+		<edate>1587997437776</edate>
+		<id>10</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">File Create Dialog</Str>
+		</Action>
+	</Task>
+	<Task sr="task11">
+		<cdate>1587997472580</cdate>
+		<edate>1587997472580</edate>
+		<id>11</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">File Create Dialog</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task12">
+		<cdate>1588084541266</cdate>
+		<edate>1588084541266</edate>
+		<id>12</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">/</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">/</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task13">
+		<cdate>1588084541266</cdate>
+		<edate>1588084541266</edate>
+		<id>13</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">/storage</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">/storage</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task14">
+		<cdate>1588084541266</cdate>
+		<edate>1588084541266</edate>
+		<id>14</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">/mnt</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">/mnt</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task15">
+		<cdate>1588085338487</cdate>
+		<edate>1588085338487</edate>
+		<id>15</id>
+		<pri>3</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">File Picker Tips</Str>
+		</Action>
+	</Task>
+	<Task sr="task16">
+		<cdate>1588085576950</cdate>
+		<edate>1588085576950</edate>
+		<id>16</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Back Button</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task17">
+		<cdate>1626774665356</cdate>
+		<edate>1626774711608</edate>
+		<id>17</id>
+		<nme>New Page</nme>
+		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Console.JS by N Paul (JavaScriptlet)</Str>
+			<Str sr="arg1" ve="3">TextEdit1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Console.JS by N Paul (JavaScriptlet)</Str>
+			<Str sr="arg1" ve="3">Text1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task18">
+		<cdate>1626775156655</cdate>
+		<edate>1627216535820</edate>
+		<id>18</id>
+		<nme>Open Network JS File</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>360</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%input
+Input
+The text that was inserted in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">Open JS file from network</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="30"/>
+			<Str sr="arg5" ve="3">17</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
+Data
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">%input</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Console.JS by N Paul (JavaScriptlet)</Str>
+			<Str sr="arg1" ve="3">TextEdit1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%http_data</Str>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task19">
+		<cdate>1627213872899</cdate>
+		<edate>1627213872899</edate>
+		<id>19</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Console.JS by N Paul (Web Version)</Str>
+		</Action>
+	</Task>
+	<Task sr="task2">
+		<cdate>1626759417178</cdate>
+		<edate>1628341515593</edate>
+		<id>2</id>
+		<nme>Runner</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Execution Mode Selector</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Execution Mode Selector</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="10"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task20">
+		<cdate>1627213936859</cdate>
+		<edate>1627213936859</edate>
+		<id>20</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Console.JS by N Paul (JavaScriptlet)</Str>
+		</Action>
+	</Task>
+	<Task sr="task21">
+		<cdate>1626775156655</cdate>
+		<edate>1627637614440</edate>
+		<id>21</id>
+		<nme>Open Network JS File WebView</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>360</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%input
+Input
+The text that was inserted in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">Open JS file from network</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="30"/>
+			<Str sr="arg5" ve="3">17</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
+Data
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">%input</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Console.JS by N Paul (JavaScriptlet)</Str>
+			<Str sr="arg1" ve="3">TextEdit1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%http_data</Str>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>53</code>
+			<label>Somehow this logic block(task) is not working for WebView version of the Console.js , so this logic(task) block is unused as of now...</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Console.JS by N Paul (Web Version)</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+			<Int sr="arg2" val="6"/>
+			<Str sr="arg3" ve="3">javascript:consoleInputDisplay.value=local('%http_data')</Str>
+		</Action>
+	</Task>
+	<Task sr="task22">
+		<cdate>1627214007052</cdate>
+		<edate>1627214007052</edate>
+		<id>22</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Execution Mode Selector</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task23">
+		<cdate>1627214522823</cdate>
+		<edate>1627214522823</edate>
+		<id>23</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Open File</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Open File Webview</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">File Picker</Str>
+		</Action>
+	</Task>
+	<Task sr="task24">
+		<cdate>1626767334886</cdate>
+		<edate>1627831218710</edate>
+		<id>24</id>
+		<nme>Open File Webview</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>319</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">android.permission.READ_EXTERNAL_STORAGE
+android.permission.WRITE_EXTERNAL_STORAGE</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">File Picker Launcher</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%File_Path_Picked</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>417</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%File_Path_Picked</Str>
+			<Str sr="arg1" ve="3">%Raw_data</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">File Picker</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>53</code>
+			<label>Somehow this logic block(task) is not working for WebView version of the Console.js , so this logic(task) block is unused as of now...</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Console.JS by N Paul (Web Version)</Str>
+			<Str sr="arg1" ve="3">WebView1</Str>
+			<Int sr="arg2" val="6"/>
+			<Str sr="arg3" ve="3">javascript:consoleInputDisplay.value=global('%Raw_data')</Str>
+		</Action>
+	</Task>
+	<Task sr="task25">
+		<cdate>1627632509286</cdate>
+		<edate>1627632509286</edate>
+		<id>25</id>
+		<pri>105</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">About Screen</Str>
+		</Action>
+	</Task>
+	<Task sr="task26">
+		<cdate>1627831236876</cdate>
+		<edate>1628323172041</edate>
+		<id>26</id>
+		<nme>Just For Permission</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>319</code>
+			<Str sr="arg0" ve="3">android.permission.ACCESS_FINE_LOCATION
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_WIMAX_STATE
+android.permission.ADB_WIFI
+android.permission.PACKAGE_USAGE_STATS
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.BODY_SENSORS
+android.permission.CAMERA
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.CHANGE_WIMAX_STATE
+android.permission.DRAW_OVERLAYS
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.EXPAND_STATUS_BAR
+android.permission.INTERNET
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.RECORD_AUDIO
+android.permission.VIBRATE
+android.permission.WRITE_SETTINGS</Str>
+		</Action>
+	</Task>
+	<Task sr="task27">
+		<cdate>1627632509286</cdate>
+		<edate>1627632509286</edate>
+		<id>27</id>
+		<pri>103</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Help me to choose</Str>
+		</Action>
+	</Task>
+	<Task sr="task3">
+		<cdate>1626759667941</cdate>
+		<edate>1626759667941</edate>
+		<id>3</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Console.JS by N Paul (JavaScriptlet)</Str>
+			<Str sr="arg1" ve="3">Text1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">Console.JS by N Paul (JavaScriptlet)</Str>
+			<Str sr="arg1" ve="3">TextEdit1</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%code_to_be_executed</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%code_to_be_executed</Str>
+			<Str sr="arg1" ve="3">  </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%code_to_be_executed</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Raw_Codes</Str>
+			<Str sr="arg1" ve="3">%code_to_be_executed</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>129</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">//Changing default/stock JavaScript's console.log() function with our custom function...
+console.log = function (input) {
+
+    //When the user tries to view a JavaScript object through the console.log() method, the object will be shown as a string instead of "[object Object]".
+    if (typeof (input) === 'object') {
+        input = JSON.stringify(input);
+    };
+
+    input = `${input}
+`;
+    tk.elemText("Console.JS by N Paul (JavaScriptlet)", "Text1", "end", input)
+};
+
+
+
+let startTimeForTestPerformance = window.performance.now();//for performence testing
+
+//When error occured for evaluating JS Codes, then program flow should not be stopped instead error message should be shown.
+try {
+    eval(global('%Raw_Codes'));
+}
+catch (error) {
+    console.log((error.message)); //Show error message/code to the console ,incase of an error
+};
+
+
+let endTimeForTestPerformance = window.performance.now(); //for performence testing
+
+console.log(`Code Execution finished in Console.js(JavaScriptlet). Time consumed(for User inputed JS code evaluating only): ${endTimeForTestPerformance - startTimeForTestPerformance} ms`); //Show code execution time on Console
+
+tk.exit();</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3">
+				<var>300</var>
+			</Int>
+		</Action>
+	</Task>
+	<Task sr="task4">
+		<cdate>1626767334886</cdate>
+		<edate>1628329501973</edate>
+		<id>4</id>
+		<nme>Open File</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>319</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">android.permission.READ_EXTERNAL_STORAGE
+android.permission.WRITE_EXTERNAL_STORAGE</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">File Picker Launcher</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%File_Path_Picked</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>417</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%File_Path_Picked</Str>
+			<Str sr="arg1" ve="3">%raw_data</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">File Picker</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Console.JS by N Paul (JavaScriptlet)</Str>
+			<Str sr="arg1" ve="3">TextEdit1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%raw_data</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task5">
+		<cdate>1587908951231</cdate>
+		<edate>1627222106073</edate>
+		<id>5</id>
+		<nme>File Picker Launcher</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">/storage</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">/storage</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_file_folder_open</nme>
+			<tint>-16767745</tint>
+		</Img>
+	</Task>
+	<Task sr="task6">
+		<cdate>1587909235835</cdate>
+		<edate>1587909235835</edate>
+		<id>6</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file_or_folder_tap</Str>
+			<Str sr="arg1" ve="3">%tap_label</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>342</code>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%file_or_folder_tap</Str>
+			<Str sr="arg2" ve="3">%tap_data_type_test</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tap_data_type_test</lhs>
+					<op>2</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%file_or_folder_tap</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%file_or_folder_tap</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tap_data_type_test</lhs>
+					<op>2</op>
+					<rhs>file</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%File_Path_Picked</Str>
+			<Str sr="arg1" ve="3">%file_or_folder_tap</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">File path has been picked :-)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Text1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">File path has been picked :-)
+"%File_Path_Picked"</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1587990059360</cdate>
+		<edate>1587990059360</edate>
+		<id>7</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file_or_folder_tap</Str>
+			<Str sr="arg1" ve="3">%tap_label</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>342</code>
+			<Int sr="arg0" val="4"/>
+			<Str sr="arg1" ve="3">%file_or_folder_tap</Str>
+			<Str sr="arg2" ve="3">%tap_data_type_test</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tap_data_type_test</lhs>
+					<op>2</op>
+					<rhs>dir</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%File_Path_Picked</Str>
+			<Str sr="arg1" ve="3">%file_or_folder_tap</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Folder path has been picked :-)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Text1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Folder path has been picked :-)
+"%File_Path_Picked"</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1587990764274</cdate>
+		<edate>1587990764274</edate>
+		<id>8</id>
+		<pri>2</pri>
+		<Action sr="act0" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%path_location</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%path_array</Str>
+			<Str sr="arg1" ve="3">%path_location</Str>
+			<Str sr="arg2" ve="3">/</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%number_of_last_element</Str>
+			<Str sr="arg1" ve="3">%path_array(#&lt;)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%path_array</Str>
+			<Int sr="arg1">
+				<var>%number_of_last_element</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%back_path</Str>
+			<Str sr="arg1" ve="3">%path_array(2:)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%back_path</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">/</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">/%back_path</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">/%back_path</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task9">
+		<cdate>1587996846667</cdate>
+		<edate>1587996846667</edate>
+		<id>9</id>
+		<pri>4</pri>
+		<Action sr="act0" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">File Picker</Str>
+			<Str sr="arg1" ve="3">Path Location</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%current_path</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">File Create Dialog</Str>
+			<Str sr="arg1" ve="3">TextEdit1</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%create_folder_name</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%create_folder_name</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%create_folder_name</lhs>
+					<op>2</op>
+					<rhs>*create_folder_name</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Folder name can not be empty...</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%create_folder_name</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>409</code>
+			<Str sr="arg0" ve="3">%current_path/%create_folder_name</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Folder Created</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">File Create Dialog</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%current_path</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%List_of_Files_Folders</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%create_folder_name</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
