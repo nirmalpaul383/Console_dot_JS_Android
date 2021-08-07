@@ -31,6 +31,35 @@ https://tasker.joaoapps.com/userguide/en/javascript.htm .
 
 .................................................................................................................................................................................
 
+Here are some ScreenShots:
+**1st ScreenShot:**
+![ScreenShot 1](https://raw.githubusercontent.com/nirmalpaul383/Console_dot_JS_Android/main/Screenshots/1.png)
+
+**Tasker's JavaScriptlet Mode: UI:** | **WebView mode: UI:**
+------------ | -------------
+![Tasker's JavaScriptlet Mode: UI](https://raw.githubusercontent.com/nirmalpaul383/Console_dot_JS_Android/main/Screenshots/2.png) | ![WebView mode: UI](https://raw.githubusercontent.com/nirmalpaul383/Console_dot_JS_Android/main/Screenshots/3.png)
+
+**Tasker's JavaScriptlet Mode: simple for loop:** | **WebView mode: simple for loop:**
+------------ | -------------
+![Tasker's JavaScriptlet Mode: simple for loop](https://raw.githubusercontent.com/nirmalpaul383/Console_dot_JS_Android/main/Screenshots/4.png) | ![WebView mode: simple for loop](https://raw.githubusercontent.com/nirmalpaul383/Console_dot_JS_Android/main/Screenshots/5.png)
+
+**Tasker's JavaScriptlet Mode: Executing a network JS file using UI:** | **WebView mode: Executing a local JS file using Tasker's JavaScript Interface:**
+------------ | -------------
+![Tasker's JavaScriptlet Mode: Executing a network JS file using UI](https://raw.githubusercontent.com/nirmalpaul383/Console_dot_JS_Android/main/Screenshots/6.png) | ![WebView mode: simple for loop](https://raw.githubusercontent.com/nirmalpaul383/Console_dot_JS_Android/main/Screenshots/7.png)
+
+.................................................................................................................................................................................
+
+**About app compatibility:**
+This application's icon and contains are designed and developed by me (N Paul). This program is best suitable for stock android with HD (720x1280 p) and FullHD+ (1080x2160 p)
+resolution's display.
+
+**About source project:**
+This application is made with Tasker: (https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) and with Tasker app factory:
+(https://play.google.com/store/apps/details?id=net.dinglisch.android.appfactory ). To install and run 'Console.js(android)' you will not need any of this application. However,
+if you want to ‘view’ or ‘modify’ source file you 'will need' Tasker application and if you want to 'export your own modification' then you 'will need both' Tasker and its
+extension app Tasker app factory.
+
+.................................................................................................................................................................................
 
 If you like these project please give a star to these projects. https://github.com/nirmalpaul383/Console_dot_JS_Android , 
 Main project: https://github.com/nirmalpaul383/Console_dot_JS
