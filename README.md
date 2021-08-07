@@ -20,7 +20,14 @@ again (not forgetting the old codes). But comparatively in these project, if cod
 
 .................................................................................................................................................................................
 
-
+Console.js (Android) supports two JavaScript code execution modes. The first one is Tasker's JavaScriptlet mode (based on Tasker's sences and JavaScriptlet) and the second is
+WebView mode (based on HTML, CSS and JavaScript (and android's WebView)). Most JavaScript code will run almost equally in these two modes, and these two modes support Tasker's
+JavaScript interface. However, in terms of execution speed, it can be said that the webview mode is relatively faster (However, depending on the JavaScript code, exceptions may
+occur). In terms of features, Tasker JavaScriptlet mode currently has a few more features. For example it supports JavaScript scrict ("use strict") mode, it can read and execute
+local or network javascript file through a graphical interface (although with the help of Tasker JavaScript interface we can read and execute local JavaScript file in webview
+mode also. We can use fetch api or xmlhttprequest for network js file.). Here is a small example of how to execute local js files through Tasker JavaScript interface:
+let fileDataHolder = readFile ("local file path"); and to execute it use the syntax: eval (fileDataHolder). You can find more information about Tasker JavaScript interface here
+https://tasker.joaoapps.com/userguide/en/javascript.htm .
 
 .................................................................................................................................................................................
 
