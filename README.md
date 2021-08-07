@@ -32,8 +32,9 @@ https://tasker.joaoapps.com/userguide/en/javascript.htm .
 .................................................................................................................................................................................
 
 Here are some ScreenShots:
-**Console.js (Android) supports two JavaScript code execution modes:**
-![Console.js (Android) supports two JavaScript code execution modes](https://raw.githubusercontent.com/nirmalpaul383/Console_dot_JS_Android/main/Screenshots/1.png)
+**Console.js (Android): Icon:** | ****Console.js (Android) supports two JavaScript code execution modes:****
+------------ | -------------
+![Console.js (Android): Icon:](https://raw.githubusercontent.com/nirmalpaul383/Console_dot_JS_Android/main/Icon/Console%20dot%20js%20icon%20Project.png) | ![Console.js (Android) supports two JavaScript code execution modes](https://raw.githubusercontent.com/nirmalpaul383/Console_dot_JS_Android/main/Screenshots/1.png)
 
 **Tasker's JavaScriptlet Mode: UI:** | **WebView mode: UI:**
 ------------ | -------------
