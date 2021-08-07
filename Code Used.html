@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console.JS by N Paul</title>
+    <!-- This project is originally made by me(N Paul). My github profile https://github.com/nirmalpaul383/
+          My youtube page https://www.youtube.com/channel/UCY6JY8bTlR7hZEvhy6Pldxg/ .This is an open source program .
+          You are welcomed to modify it...If you want to support me please give a like to our facebook page
+          https://facebook.com/a.new.way.Technical/ -->
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            background: rgb(0, 0, 0);
+        }
+
+        /* This project is originally made by me(N Paul). My github profile https://github.com/nirmalpaul383/
+My youtube page https://www.youtube.com/channel/UCY6JY8bTlR7hZEvhy6Pldxg/ .This is an open source program .
+You are welcomed to modify it...If you want to support me please give a like to our facebook page: https://facebook.com/a.new.way.Technical/ */
+
+        #divForHoldingLayout {
+            display: block;
+            width: 96vw;
+            height: 97vh;
+            margin-left: 2vw;
+            margin-top: 1vh;
+        }
+
+        #consoleOutputDisplay {
+            display: block;
+            resize: none;
+            width: 100%;
+            height: 20%;
+            background: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0);
+            color: red;
+        }
+
+        #consoleOutputDisplay:focus {
+            outline: none;
+        }
+
+        #consoleInputDisplay {
+            display: block;
+            resize: none;
+            width: 100%;
+            height: 80%;
+            background: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0);
+            color: rgb(9, 255, 0);
+        }
+
+        #consoleInputDisplay:focus {
+            outline: none;
+        }
+
+        #acceptButton {
+            display: block;
+            position: fixed;
+            top: 80vh;
+            right: 1vw;
+            border-radius: 35%;
+            background: rgb(19, 221, 70);
+            width: 10vw;
+            height: 10vw;
+        }
+
+        #acceptButton:hover {
+            background: rgb(8, 195, 228);
+        }
+
+        #acceptButton:active {
+            background: rgb(10, 88, 233);
+            width: 9vw;
+            height: 9vw;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="divForHoldingLayout">
+        <textarea id="consoleInputDisplay" placeholder=""></textarea>
+        <hr>
+        <textarea id="consoleOutputDisplay" placeholder="" readonly></textarea>
+        <input id="acceptButton" type="button" onclick="acceptThisCode()" value="Run">
+    </div>
+    <script>
+        /* This project is originally made by me(N Paul). My github profile https://github.com/nirmalpaul383/
+My youtube page https://www.youtube.com/channel/UCY6JY8bTlR7hZEvhy6Pldxg/ .This is an open source program .
+You are welcomed to modify it...If you want to support me please give a like to our facebook page: https://facebook.com/a.new.way.Technical/ */
+
+
+        //Declaring necessary variables
+        let consoleInputDisplay = document.getElementById('consoleInputDisplay');
+        let consoleOutputDisplay = document.getElementById('consoleOutputDisplay');
+
+
+        //Write some basic information to the consoleInputDisplay
+        consoleInputDisplay.placeholder = `Welcome to Console.JS(Android) by N Paul.This is a small project to run/evaluate javascript code and to show the output on a custom console using a custom 'console.log()' method. You can enter JavaScript code here. You can use the "console.log()" method to output a JS code. It also supports Tasker's JavaScript interface. You can find more information about Tasker's JavaScript interface at https://tasker.joaoapps.com/userguide/en/javascript.html
+
+
+Console.js(Android)(https://github.com/nirmalpaul383/Console_dot_JS_Android) is based on "Console.js"(https://github.com/nirmalpaul383/Console_dot_JS) project by me. This project is very similar to my another project 'Tasker.js'(https://github.com/nirmalpaul383/Project_Tasker_dot_JS) which is based on "JavaScript_Console_Mini-inside-webpage"(https://github.com/nirmalpaul383/JavaScript_Console_Mini-inside-webpage) project by me.
+
+But the main difference between these(Console.js(Android) & 'Console.js') and those('Tasker.js' & 'JavaScript_Console_Mini-inside-webpage') project are that, these never instantly return the output of a code untill "console.log()" method is used but those always return an output(regardless of defined/undefinded value). Another difference is that when a code is thrown into those('JavaScript_Console_Mini-inside-webpage' & 'Tasker.js'), they first read it, then evaluate it, then print its output and are ready to take the another code again (not forgetting the old codes). But comparatively in these project, if codes are thrown into these, these first read the entire codes, then evaluate it, and if there is "console.log()" method only then output it, and if we throw a new code, these forgets the previously executed code.
+
+If you like these project please give a star to these projects. https://github.com/nirmalpaul383/Console_dot_JS_Android , 
+Main project: https://github.com/nirmalpaul383/Console_dot_JS
+
+if you like to check out my previous similar projects you can visit 
+https://github.com/nirmalpaul383/Project_Tasker_dot_JS ,
+Main project: https://github.com/nirmalpaul383/JavaScript_Console_Mini-inside-webpage
+
+This project is originally made by me(N Paul).
+My github profile: https://github.com/nirmalpaul383/
+My youtube page: https://www.youtube.com/channel/UCY6JY8bTlR7hZEvhy6Pldxg/
+
+This is an open source program. You are welcomed to modify it...
+If you want to support me please give a like to our facebook page: https://facebook.com/a.new.way.Technical/
+
+`;
+
+
+        consoleOutputDisplay.placeholder = `Console Output`;
+
+        //Changing default/stock JavaScript's console.log() function with our custom function...
+        console.log = function (input) {
+
+            //When the user tries to view a JavaScript object through the console.log() method, the object will be shown as a string instead of "[object Object]".
+            if (typeof (input) === 'object') {
+                input = JSON.stringify(input);
+            };
+
+            consoleOutputDisplay.value = `${consoleOutputDisplay.value}
+${input}`;
+        };
+
+        //Main function, when user click Run button this function will be executed
+        function acceptThisCode() {
+
+            consoleOutputDisplay.value = '';//Clearing Console
+
+
+            let rawCodes = consoleInputDisplay.value;//for getting user inputed code.
+
+            let startTimeForTestPerformance = window.performance.now();//for performence testing
+
+            //When error occured for evaluating JS Codes, then program flow should not be stopped instead error message should be shown.
+            try {
+                eval(rawCodes);
+            }
+            catch (error) {
+                console.log((error.message)); //Show error message/code to the console ,incase of an error
+            };
+
+
+            let endTimeForTestPerformance = window.performance.now(); //for performence testing
+
+            console.log(`Code Execution finished in Console.js(WebView). Time consumed(for User inputed JS code evaluating only): ${endTimeForTestPerformance - startTimeForTestPerformance} ms`); //Show code execution time on Console
+
+        }
+
+
+    </script>
+</body>
+
+</html>
